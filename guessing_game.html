@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Mica Gambling</title>
+   <link rel="stylesheet" href="guessing.css">
+</head>
+<body>
+    <div class="container">
+        <h6>Welcome To Guessing Game </h6>
+        <h6>💶💶💵🦾ወደ የግምት ጨወታ እንኻን ብደህና መጡ💶💶💵🦾</h6>
+          
+        <form action="">
+             <label for="deposit">deposit(min of 10):</label>
+             <input type="number" id="depositInput" min="10">  
+             <button type="button" id="depositBtn">deposit(ያስቀምጡ)</button>
+
+             <p id="currentBalance">Current Balance: 0 birr</p>
+                <!--user input-->
+                <label for="input">Enter a number (1-100):</label>
+                <input type="number" id="input">
+                <button type="button" id="guessBtn" disabled>Guess(ገምት)</button>
+
+                <p id="res"></p>
+        </form>
+    </div>
+
+    <script src="guessing.js">
+        
+        </script>
+</body>
+</html>

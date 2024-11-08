@@ -1,0 +1,25 @@
+     .container {
+            text-align: center;
+            background-color: darkgrey;
+            padding: 20px;
+            margin-top: 50px;
+        }
+        button {
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: aqua;
+            color: yellow;
+        }
+        #res {
+            color: red;
+        }
+        #depositBtn
+        {
+            margin-top: 5px;  
+        }
+        
+        #guessBtn
+        {
+            margin-top: 5px;  
+        }
